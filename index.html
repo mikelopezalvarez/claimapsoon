@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Meta-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Title-->
+	<title>CLAIMAP - Coming Soon</title>
+	<!--CSS-->
+	<link rel="stylesheet" href="css/main-green-dark.css" id="color-switcher">  
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<!--Favicon-->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway|Righteous" rel="stylesheet">
+</head>
+<body>
+	<!--Hero-->
+	<div class="hero" id="particles-js">
+		<div class="centered">
+			<img class="logo" src="img/logo.png" alt="PULSE">
+			<!--<h1 class="title">CLAIMAP</h1>-->
+			<h2 class="heading">Coming Soon</h2>
+			<div class="countdown" id="countdown"></div>
+			<p class="description">Manage your claims, visualize your risk.</p>
+			<div class="buttons">
+				<a id="know-more-button" href="#" class="button btn-round btn-solid">Read More</a>
+				<a id="subscribe-button" href="#" class="button btn-round btn-ghost">Subscribe</a>
+			</div>
+		</div>
+		<div class="social-text">
+			<a href="#">Facebook</a>
+			<a href="#">Twitter</a>
+			<a href="#">LinkedIn</a>
+			<!--<a href="#">Behance</a>-->
+		</div>
+		<div class="modal modal-subscirbe" id="subscribe-modal">
+			<div class="content">
+				<h2>Subscribe &amp; Stay Updated</h2>
+				<p>Manage your claims, visualize your risk.</p>
+				<form id="mc-form" class="subscribe-form subscribe-split">
+					<input id="mc-email" type="email" placeholder="Your E-Mail">
+					<input class="btn-solid" type="submit" value="Notify me">
+					<label class="response" for="mc-email">Result</label>
+				</form>
+			</div>
+			<div class="exit" id="subscribe-close">+</div>
+		</div>
+	</div>
+	<!--More-->
+	<div class="more" id="more" data-mcs-theme="minimal-dark">
+		<div class="exit" id="more-close">+</div>
+		<h1 class="more-heading">Claimap</h1>
+		<p class="more-description">Claimap is cloud platform for manage insurance claims. You can visualize risk and generate reports in real time. Works with different business type like Auto, Property, Inland Marine, CGL, etc...</p>
+		
+		<h2 class="more-sub-heading">Contact us</h2>
+		<p class="more-description">You can contact us via email! We are ready to discuss cooperation and to listen to job offers!</p>
+		<form action="#" class="contact-form" id="contact-form">
+			<div class="name">
+				<label for="name">Name:</label>
+				<input name="name" id="name" type="text">
+			</div>
+			<div class="email">
+				<label for="email">Email:</label>
+				<input name="email" id="email" type="email">
+			</div>
+			<div class="clearfix"></div>
+			<div class="message">
+				<label for="message">Message:</label>
+				<textarea name="message" id="message" cols="25" rows="10"></textarea>
+			</div>
+			<div class="submit">
+				<input type="submit" value="submit">
+			</div>
+			<p id="contact-result" class="contact-result">Empty message</p>
+		</form>
+		
+	</div>
+	<!--Overlay-->
+	<div class="overlay" id="overlay"></div>
+	<!--Scripts-->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/particles.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
